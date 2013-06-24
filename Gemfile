@@ -5,10 +5,7 @@ gem "sinatra"
 gem "whenever"
 
 
-gem 'net/http'
-gem 'uri'
 gem 'json'
 gem 'nokogiri'
-gem 'open-uri'
 gem 'trollop'
 gem 'twitter'
