@@ -97,9 +97,8 @@ result_text.split("\n").each do |x|
   wolves << x
 end
 
-File.open("#{company}.txt",'a') do |f|
   f << "TRAFFIC: \n" <<  wolves.join("\n") << "\n\n"
-end
+
 
 #google trends
 trends = trendo(company)
